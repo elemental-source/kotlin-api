@@ -16,14 +16,14 @@ import javax.ws.rs.core.MediaType
 class PessoaAPI {
 
     @GET
-    @Path("/ola")
+    @Path("/olaAPI")
     @Produces(MediaType.APPLICATION_JSON)
     fun hello(@QueryParam("nome") nome: String): String {
         return "Olá, $nome"
     }
 
     @GET
-    @Path("/get")
+    @Path("/getPessoaAPI")
     @Produces(MediaType.APPLICATION_JSON)
     fun getPessoa(): Pessoa {
         var pessoa: Pessoa = Pessoa()
