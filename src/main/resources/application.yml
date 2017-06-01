@@ -1,2 +1,6 @@
 server:
-  port: 9090
+  port: 1010
+
+logging:
+  level: debug
+

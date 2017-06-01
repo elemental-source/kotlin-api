@@ -72,26 +72,26 @@ sourceSets {
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
+    //compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-runtime:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
 
     compile("org.springframework.boot:spring-boot-starter:$springBootVersion")
     compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-data-rest:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-data-rest:$springBootVersion")
     //compile("org.springframework.boot:spring-boot-starter-webflux:$springBootVersion")
     compile("org.springframework.boot:spring-boot-starter-jersey:$springBootVersion")
     compile("org.springframework.boot:spring-boot-starter-undertow:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-security:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-security:$springBootVersion")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonModuleKotlinVersion")
-    compile("com.google.code.gson:gson:$gsonVersion")
-    compile("org.hsqldb:hsqldb:$hsqldbVersion")
+    //compile("com.google.code.gson:gson:$gsonVersion")
+    //compile("org.hsqldb:hsqldb:$hsqldbVersion")
     compile("io.projectreactor:reactor-kotlin-extensions:$reactorKotlinExtensions")
 
-    testCompile("org.jetbrains.spek:spek-api:$spekVersion")
+    /*testCompile("org.jetbrains.spek:spek-api:$spekVersion")
     testCompile("org.jetbrains.spek:spek-junit-platform-engine:$spekVersion")
     testCompile("org.junit.jupiter:junit-jupiter-api:$junitJupiteVersion")
     testCompile("junit:junit:$junitVersion")
@@ -101,7 +101,7 @@ dependencies {
     testCompile("io.rest-assured:json-path:$restAssuredVersion")
     testCompile("io.rest-assured:json-schema-validator:$restAssuredVersion")
     testCompile("org.hamcrest:hamcrest-all:$hamcrestVersion")
-    testCompile("com.natpryce:hamkrest:$hamkrestVersion")
+    testCompile("com.natpryce:hamkrest:$hamkrestVersion")*/
     //testCompile("io.projectreactor.addons:reactor-test")
 
     testCompile("org.jetbrains.kotlin:kotlin-test:$kotlinVersion")
