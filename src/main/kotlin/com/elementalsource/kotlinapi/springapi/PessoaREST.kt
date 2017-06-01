@@ -13,7 +13,7 @@ import javax.ws.rs.QueryParam
  * Created by Kleber.
  */
 @RestController
-class PessoaREST {
+open class PessoaREST {
 
     @GetMapping("/olaREST", produces = arrayOf(MediaType.APPLICATION_JSON_VALUE))
     fun hello(@QueryParam("nome") nome: String): String {
@@ -21,7 +21,7 @@ class PessoaREST {
     }
 
     @RequestMapping(value = "/getPessoaREST", method = arrayOf(RequestMethod.GET), produces = arrayOf(MediaType.APPLICATION_JSON_VALUE))
-    fun getPessoa(): Pessoa {
+    open fun getPessoa(): Pessoa {
         var pessoa: Pessoa = Pessoa()
         pessoa.nome = "Kleber"
         pessoa.email = "kleber@email.com"
