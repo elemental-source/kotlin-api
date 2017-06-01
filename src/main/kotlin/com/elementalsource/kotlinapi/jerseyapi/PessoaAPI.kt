@@ -1,6 +1,6 @@
-package com.elementalsource.kotlinapi.api
+package com.elementalsource.kotlinapi.jerseyapi
 
-import com.elementalsource.kotlinapi.Pessoa
+import com.elementalsource.kotlinapi.model.Pessoa
 import org.springframework.stereotype.Component
 import javax.ws.rs.GET
 import javax.ws.rs.Path

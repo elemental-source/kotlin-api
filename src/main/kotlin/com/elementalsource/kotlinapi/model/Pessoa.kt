@@ -1,4 +1,4 @@
-package com.elementalsource.kotlinapi
+package com.elementalsource.kotlinapi.model
 
 /**
  * Created by Kleber.
