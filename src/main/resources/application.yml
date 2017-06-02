@@ -4,3 +4,8 @@ server:
 logging:
   level: debug
 
+#spring:
+#  data:
+#    rest:
+#      basePath: /api
+
