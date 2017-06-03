@@ -78,13 +78,12 @@ dependencies {
     compile("org.jetbrains.kotlin:kotlin-runtime:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
 
-    compile("org.springframework.boot:spring-boot-starter:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-jersey:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-undertow:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-data-rest:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-undertow:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-data-rest:$springBootVersion")
     compile("org.springframework.boot:spring-boot-starter-webflux:$springBootVersion")
-    compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
+    //compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
     //compile("org.springframework.boot:spring-boot-starter-security:$springBootVersion")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonModuleKotlinVersion")

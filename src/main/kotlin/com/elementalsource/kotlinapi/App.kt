@@ -13,11 +13,11 @@ import org.springframework.web.client.RestTemplate
 @SpringBootApplication
 open class App {
 
-    @Bean
+    /*@Bean
     open fun restTemplate(): RestTemplate {
         val restTemplate = RestTemplate()
         return restTemplate
-    }
+    }*/
 
     @Bean
     open fun objectMapperBuilder(): Jackson2ObjectMapperBuilder = Jackson2ObjectMapperBuilder().modulesToInstall(KotlinModule())
