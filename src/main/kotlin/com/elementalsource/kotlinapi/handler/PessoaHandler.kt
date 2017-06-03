@@ -12,6 +12,5 @@ import org.springframework.web.reactive.function.server.ServerResponse.ok
 @Component
 class PessoaHandler() {
 
-    fun olaFuncionalReativo(req: ServerRequest) = ok().body(fromPublisher<Publisher<String>, String>(Publisher { "Ola" }))
-
+    fun olaFuncionalReativo(serverRequest: ServerRequest) = ok().body(fromPublisher<Publisher<String>, String>(Publisher { "Ola" }))
 }
